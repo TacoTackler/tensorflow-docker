@@ -51,6 +51,7 @@ RUN pip install Cython \
 
 # Get the tensorflow models research directory, and move it into tensorflow
 # source folder to match recommendation of installation
+RUN git clone https://github.com/tensorflow/tensorflow.git /tensorflow
 RUN git clone --depth 1 https://github.com/tensorflow/models.git /tensorflow/models
 
 # Install gcloud and gsutil commands
