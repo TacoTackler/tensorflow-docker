@@ -30,6 +30,7 @@ RUN apt-get update -qq && \
         htop \
         jed \
         net-tools \
+        openjdk-8-jdk \
         protobuf-compiler \
         ssh \
         time \
